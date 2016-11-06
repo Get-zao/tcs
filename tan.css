@@ -1,0 +1,74 @@
+@import url(common.css);
+#box{
+	width: 600px;
+	height: 600px;
+	margin: 20px auto;
+	margin-bottom: 0;
+	border:1px solid #000;
+	background: url(5.jpg);
+	background-size:cover;
+	position: relative;
+	overflow: hidden;
+}
+span{
+	position: absolute;
+	top: 200px;
+	/*background: red;*/
+}
+.yin{
+	display: none;
+	left: -10px;
+}
+#box div{
+	width: 28px;
+	height: 28px;
+	float: left;
+ 	border:1px solid rgba(255,255,255,0.0001);
+}
+.she{
+	background: url(2.png);
+	background-size:cover;
+}
+/*#box>.she:first-of-type{
+	background:url(2.png);
+}*/
+
+.food{
+	background: url(1.png);
+	background-size:cover;
+}
+#h{
+	width: 602px;
+	height: 100px;
+	margin: 0 auto;
+	background: #472F22;
+	position: relative;
+}
+#h ul{
+	width: 430px;
+	height: 50px;
+	position: absolute;
+	top: 25px;
+	left: 90px
+}
+#h ul li{
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 30px;
+	color: orange;
+	float: left;
+	border: 1px solid #000;
+	cursor: pointer;
+}
+#h ul .cxks{
+	width: 150px;
+	height: 50px;
+}
+#h ul li a{
+	font-size: 30px;
+	color: green;
+}
